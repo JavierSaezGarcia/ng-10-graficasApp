@@ -1,0 +1,11 @@
+
+<div class="style">
+    <ul class="flex-column list-group">
+        <li class="list-group-item" 
+        *ngFor="let item of menuItems"
+        routerLink='{{ item.ruta }}' 
+        routerLinkActive="active">
+        {{ item.nombre }}
+        </li>
+    </ul>
+</div>
